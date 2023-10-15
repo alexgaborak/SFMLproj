@@ -86,7 +86,43 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/alexg/CLionProjects/SFMLproj/asteroid.cpp">
+			<Option target="SFMLproj"/>
+		</Unit>
+		<Unit filename="C:/Users/alexg/CLionProjects/SFMLproj/asteroid.h">
+			<Option target="SFMLproj"/>
+		</Unit>
+		<Unit filename="C:/Users/alexg/CLionProjects/SFMLproj/bullet.cpp">
+			<Option target="SFMLproj"/>
+		</Unit>
+		<Unit filename="C:/Users/alexg/CLionProjects/SFMLproj/bullet.h">
+			<Option target="SFMLproj"/>
+		</Unit>
+		<Unit filename="C:/Users/alexg/CLionProjects/SFMLproj/control.cpp">
+			<Option target="SFMLproj"/>
+		</Unit>
+		<Unit filename="C:/Users/alexg/CLionProjects/SFMLproj/control.h">
+			<Option target="SFMLproj"/>
+		</Unit>
 		<Unit filename="C:/Users/alexg/CLionProjects/SFMLproj/main.cpp">
+			<Option target="SFMLproj"/>
+		</Unit>
+		<Unit filename="C:/Users/alexg/CLionProjects/SFMLproj/rules.cpp">
+			<Option target="SFMLproj"/>
+		</Unit>
+		<Unit filename="C:/Users/alexg/CLionProjects/SFMLproj/rules.h">
+			<Option target="SFMLproj"/>
+		</Unit>
+		<Unit filename="C:/Users/alexg/CLionProjects/SFMLproj/ship.cpp">
+			<Option target="SFMLproj"/>
+		</Unit>
+		<Unit filename="C:/Users/alexg/CLionProjects/SFMLproj/ship.h">
+			<Option target="SFMLproj"/>
+		</Unit>
+		<Unit filename="C:/Users/alexg/CLionProjects/SFMLproj/space_object.cpp">
+			<Option target="SFMLproj"/>
+		</Unit>
+		<Unit filename="C:/Users/alexg/CLionProjects/SFMLproj/space_object.h">
 			<Option target="SFMLproj"/>
 		</Unit>
 		<Unit filename="C:/Users/alexg/CLionProjects/SFMLproj/CMakeLists.txt">

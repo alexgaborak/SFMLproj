@@ -254,4 +254,9 @@ CMakeFiles/SFMLproj.dir/main.cpp.obj: \
  C:/SFML/include/SFML/Graphics/Glsl.inl \
  C:/SFML/include/SFML/Graphics/Sprite.hpp \
  C:/SFML/include/SFML/Graphics/Text.hpp \
- C:/SFML/include/SFML/Graphics/VertexBuffer.hpp
+ C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
+ C:\Users\alexg\CLionProjects\SFMLproj\space_object.h \
+ C:\Users\alexg\CLionProjects\SFMLproj\ship.h \
+ C:\Users\alexg\CLionProjects\SFMLproj\asteroid.h \
+ C:\Users\alexg\CLionProjects\SFMLproj\control.h \
+ C:\Users\alexg\CLionProjects\SFMLproj\rules.h
