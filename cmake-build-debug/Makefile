@@ -47,10 +47,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.3.3\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2022.3.3\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\alexg\CLionProjects\SFMLproj\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2022.3.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2022.3.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -128,6 +128,78 @@ SFMLproj/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFMLproj.dir\build.make CMakeFiles/SFMLproj.dir/build
 .PHONY : SFMLproj/fast
 
+asteroid.obj: asteroid.cpp.obj
+.PHONY : asteroid.obj
+
+# target to build an object file
+asteroid.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFMLproj.dir\build.make CMakeFiles/SFMLproj.dir/asteroid.cpp.obj
+.PHONY : asteroid.cpp.obj
+
+asteroid.i: asteroid.cpp.i
+.PHONY : asteroid.i
+
+# target to preprocess a source file
+asteroid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFMLproj.dir\build.make CMakeFiles/SFMLproj.dir/asteroid.cpp.i
+.PHONY : asteroid.cpp.i
+
+asteroid.s: asteroid.cpp.s
+.PHONY : asteroid.s
+
+# target to generate assembly for a file
+asteroid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFMLproj.dir\build.make CMakeFiles/SFMLproj.dir/asteroid.cpp.s
+.PHONY : asteroid.cpp.s
+
+bullet.obj: bullet.cpp.obj
+.PHONY : bullet.obj
+
+# target to build an object file
+bullet.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFMLproj.dir\build.make CMakeFiles/SFMLproj.dir/bullet.cpp.obj
+.PHONY : bullet.cpp.obj
+
+bullet.i: bullet.cpp.i
+.PHONY : bullet.i
+
+# target to preprocess a source file
+bullet.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFMLproj.dir\build.make CMakeFiles/SFMLproj.dir/bullet.cpp.i
+.PHONY : bullet.cpp.i
+
+bullet.s: bullet.cpp.s
+.PHONY : bullet.s
+
+# target to generate assembly for a file
+bullet.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFMLproj.dir\build.make CMakeFiles/SFMLproj.dir/bullet.cpp.s
+.PHONY : bullet.cpp.s
+
+control.obj: control.cpp.obj
+.PHONY : control.obj
+
+# target to build an object file
+control.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFMLproj.dir\build.make CMakeFiles/SFMLproj.dir/control.cpp.obj
+.PHONY : control.cpp.obj
+
+control.i: control.cpp.i
+.PHONY : control.i
+
+# target to preprocess a source file
+control.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFMLproj.dir\build.make CMakeFiles/SFMLproj.dir/control.cpp.i
+.PHONY : control.cpp.i
+
+control.s: control.cpp.s
+.PHONY : control.s
+
+# target to generate assembly for a file
+control.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFMLproj.dir\build.make CMakeFiles/SFMLproj.dir/control.cpp.s
+.PHONY : control.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -152,6 +224,78 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFMLproj.dir\build.make CMakeFiles/SFMLproj.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+rules.obj: rules.cpp.obj
+.PHONY : rules.obj
+
+# target to build an object file
+rules.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFMLproj.dir\build.make CMakeFiles/SFMLproj.dir/rules.cpp.obj
+.PHONY : rules.cpp.obj
+
+rules.i: rules.cpp.i
+.PHONY : rules.i
+
+# target to preprocess a source file
+rules.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFMLproj.dir\build.make CMakeFiles/SFMLproj.dir/rules.cpp.i
+.PHONY : rules.cpp.i
+
+rules.s: rules.cpp.s
+.PHONY : rules.s
+
+# target to generate assembly for a file
+rules.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFMLproj.dir\build.make CMakeFiles/SFMLproj.dir/rules.cpp.s
+.PHONY : rules.cpp.s
+
+ship.obj: ship.cpp.obj
+.PHONY : ship.obj
+
+# target to build an object file
+ship.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFMLproj.dir\build.make CMakeFiles/SFMLproj.dir/ship.cpp.obj
+.PHONY : ship.cpp.obj
+
+ship.i: ship.cpp.i
+.PHONY : ship.i
+
+# target to preprocess a source file
+ship.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFMLproj.dir\build.make CMakeFiles/SFMLproj.dir/ship.cpp.i
+.PHONY : ship.cpp.i
+
+ship.s: ship.cpp.s
+.PHONY : ship.s
+
+# target to generate assembly for a file
+ship.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFMLproj.dir\build.make CMakeFiles/SFMLproj.dir/ship.cpp.s
+.PHONY : ship.cpp.s
+
+space_object.obj: space_object.cpp.obj
+.PHONY : space_object.obj
+
+# target to build an object file
+space_object.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFMLproj.dir\build.make CMakeFiles/SFMLproj.dir/space_object.cpp.obj
+.PHONY : space_object.cpp.obj
+
+space_object.i: space_object.cpp.i
+.PHONY : space_object.i
+
+# target to preprocess a source file
+space_object.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFMLproj.dir\build.make CMakeFiles/SFMLproj.dir/space_object.cpp.i
+.PHONY : space_object.cpp.i
+
+space_object.s: space_object.cpp.s
+.PHONY : space_object.s
+
+# target to generate assembly for a file
+space_object.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFMLproj.dir\build.make CMakeFiles/SFMLproj.dir/space_object.cpp.s
+.PHONY : space_object.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,9 +305,27 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... SFMLproj
+	@echo ... asteroid.obj
+	@echo ... asteroid.i
+	@echo ... asteroid.s
+	@echo ... bullet.obj
+	@echo ... bullet.i
+	@echo ... bullet.s
+	@echo ... control.obj
+	@echo ... control.i
+	@echo ... control.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... rules.obj
+	@echo ... rules.i
+	@echo ... rules.s
+	@echo ... ship.obj
+	@echo ... ship.i
+	@echo ... ship.s
+	@echo ... space_object.obj
+	@echo ... space_object.i
+	@echo ... space_object.s
 .PHONY : help
 
 

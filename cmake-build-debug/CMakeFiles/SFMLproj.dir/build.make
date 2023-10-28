@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.3.3\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2022.3.3\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -73,24 +73,126 @@ CMakeFiles/SFMLproj.dir/main.cpp.obj: CMakeFiles/SFMLproj.dir/includes_CXX.rsp
 CMakeFiles/SFMLproj.dir/main.cpp.obj: C:/Users/alexg/CLionProjects/SFMLproj/main.cpp
 CMakeFiles/SFMLproj.dir/main.cpp.obj: CMakeFiles/SFMLproj.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexg\CLionProjects\SFMLproj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SFMLproj.dir/main.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLproj.dir/main.cpp.obj -MF CMakeFiles\SFMLproj.dir\main.cpp.obj.d -o CMakeFiles\SFMLproj.dir\main.cpp.obj -c C:\Users\alexg\CLionProjects\SFMLproj\main.cpp
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLproj.dir/main.cpp.obj -MF CMakeFiles\SFMLproj.dir\main.cpp.obj.d -o CMakeFiles\SFMLproj.dir\main.cpp.obj -c C:\Users\alexg\CLionProjects\SFMLproj\main.cpp
 
 CMakeFiles/SFMLproj.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLproj.dir/main.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexg\CLionProjects\SFMLproj\main.cpp > CMakeFiles\SFMLproj.dir\main.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexg\CLionProjects\SFMLproj\main.cpp > CMakeFiles\SFMLproj.dir\main.cpp.i
 
 CMakeFiles/SFMLproj.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLproj.dir/main.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexg\CLionProjects\SFMLproj\main.cpp -o CMakeFiles\SFMLproj.dir\main.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexg\CLionProjects\SFMLproj\main.cpp -o CMakeFiles\SFMLproj.dir\main.cpp.s
+
+CMakeFiles/SFMLproj.dir/control.cpp.obj: CMakeFiles/SFMLproj.dir/flags.make
+CMakeFiles/SFMLproj.dir/control.cpp.obj: CMakeFiles/SFMLproj.dir/includes_CXX.rsp
+CMakeFiles/SFMLproj.dir/control.cpp.obj: C:/Users/alexg/CLionProjects/SFMLproj/control.cpp
+CMakeFiles/SFMLproj.dir/control.cpp.obj: CMakeFiles/SFMLproj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexg\CLionProjects\SFMLproj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SFMLproj.dir/control.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLproj.dir/control.cpp.obj -MF CMakeFiles\SFMLproj.dir\control.cpp.obj.d -o CMakeFiles\SFMLproj.dir\control.cpp.obj -c C:\Users\alexg\CLionProjects\SFMLproj\control.cpp
+
+CMakeFiles/SFMLproj.dir/control.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLproj.dir/control.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexg\CLionProjects\SFMLproj\control.cpp > CMakeFiles\SFMLproj.dir\control.cpp.i
+
+CMakeFiles/SFMLproj.dir/control.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLproj.dir/control.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexg\CLionProjects\SFMLproj\control.cpp -o CMakeFiles\SFMLproj.dir\control.cpp.s
+
+CMakeFiles/SFMLproj.dir/rules.cpp.obj: CMakeFiles/SFMLproj.dir/flags.make
+CMakeFiles/SFMLproj.dir/rules.cpp.obj: CMakeFiles/SFMLproj.dir/includes_CXX.rsp
+CMakeFiles/SFMLproj.dir/rules.cpp.obj: C:/Users/alexg/CLionProjects/SFMLproj/rules.cpp
+CMakeFiles/SFMLproj.dir/rules.cpp.obj: CMakeFiles/SFMLproj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexg\CLionProjects\SFMLproj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SFMLproj.dir/rules.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLproj.dir/rules.cpp.obj -MF CMakeFiles\SFMLproj.dir\rules.cpp.obj.d -o CMakeFiles\SFMLproj.dir\rules.cpp.obj -c C:\Users\alexg\CLionProjects\SFMLproj\rules.cpp
+
+CMakeFiles/SFMLproj.dir/rules.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLproj.dir/rules.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexg\CLionProjects\SFMLproj\rules.cpp > CMakeFiles\SFMLproj.dir\rules.cpp.i
+
+CMakeFiles/SFMLproj.dir/rules.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLproj.dir/rules.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexg\CLionProjects\SFMLproj\rules.cpp -o CMakeFiles\SFMLproj.dir\rules.cpp.s
+
+CMakeFiles/SFMLproj.dir/ship.cpp.obj: CMakeFiles/SFMLproj.dir/flags.make
+CMakeFiles/SFMLproj.dir/ship.cpp.obj: CMakeFiles/SFMLproj.dir/includes_CXX.rsp
+CMakeFiles/SFMLproj.dir/ship.cpp.obj: C:/Users/alexg/CLionProjects/SFMLproj/ship.cpp
+CMakeFiles/SFMLproj.dir/ship.cpp.obj: CMakeFiles/SFMLproj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexg\CLionProjects\SFMLproj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SFMLproj.dir/ship.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLproj.dir/ship.cpp.obj -MF CMakeFiles\SFMLproj.dir\ship.cpp.obj.d -o CMakeFiles\SFMLproj.dir\ship.cpp.obj -c C:\Users\alexg\CLionProjects\SFMLproj\ship.cpp
+
+CMakeFiles/SFMLproj.dir/ship.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLproj.dir/ship.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexg\CLionProjects\SFMLproj\ship.cpp > CMakeFiles\SFMLproj.dir\ship.cpp.i
+
+CMakeFiles/SFMLproj.dir/ship.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLproj.dir/ship.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexg\CLionProjects\SFMLproj\ship.cpp -o CMakeFiles\SFMLproj.dir\ship.cpp.s
+
+CMakeFiles/SFMLproj.dir/space_object.cpp.obj: CMakeFiles/SFMLproj.dir/flags.make
+CMakeFiles/SFMLproj.dir/space_object.cpp.obj: CMakeFiles/SFMLproj.dir/includes_CXX.rsp
+CMakeFiles/SFMLproj.dir/space_object.cpp.obj: C:/Users/alexg/CLionProjects/SFMLproj/space_object.cpp
+CMakeFiles/SFMLproj.dir/space_object.cpp.obj: CMakeFiles/SFMLproj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexg\CLionProjects\SFMLproj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SFMLproj.dir/space_object.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLproj.dir/space_object.cpp.obj -MF CMakeFiles\SFMLproj.dir\space_object.cpp.obj.d -o CMakeFiles\SFMLproj.dir\space_object.cpp.obj -c C:\Users\alexg\CLionProjects\SFMLproj\space_object.cpp
+
+CMakeFiles/SFMLproj.dir/space_object.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLproj.dir/space_object.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexg\CLionProjects\SFMLproj\space_object.cpp > CMakeFiles\SFMLproj.dir\space_object.cpp.i
+
+CMakeFiles/SFMLproj.dir/space_object.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLproj.dir/space_object.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexg\CLionProjects\SFMLproj\space_object.cpp -o CMakeFiles\SFMLproj.dir\space_object.cpp.s
+
+CMakeFiles/SFMLproj.dir/asteroid.cpp.obj: CMakeFiles/SFMLproj.dir/flags.make
+CMakeFiles/SFMLproj.dir/asteroid.cpp.obj: CMakeFiles/SFMLproj.dir/includes_CXX.rsp
+CMakeFiles/SFMLproj.dir/asteroid.cpp.obj: C:/Users/alexg/CLionProjects/SFMLproj/asteroid.cpp
+CMakeFiles/SFMLproj.dir/asteroid.cpp.obj: CMakeFiles/SFMLproj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexg\CLionProjects\SFMLproj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SFMLproj.dir/asteroid.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLproj.dir/asteroid.cpp.obj -MF CMakeFiles\SFMLproj.dir\asteroid.cpp.obj.d -o CMakeFiles\SFMLproj.dir\asteroid.cpp.obj -c C:\Users\alexg\CLionProjects\SFMLproj\asteroid.cpp
+
+CMakeFiles/SFMLproj.dir/asteroid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLproj.dir/asteroid.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexg\CLionProjects\SFMLproj\asteroid.cpp > CMakeFiles\SFMLproj.dir\asteroid.cpp.i
+
+CMakeFiles/SFMLproj.dir/asteroid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLproj.dir/asteroid.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexg\CLionProjects\SFMLproj\asteroid.cpp -o CMakeFiles\SFMLproj.dir\asteroid.cpp.s
+
+CMakeFiles/SFMLproj.dir/bullet.cpp.obj: CMakeFiles/SFMLproj.dir/flags.make
+CMakeFiles/SFMLproj.dir/bullet.cpp.obj: CMakeFiles/SFMLproj.dir/includes_CXX.rsp
+CMakeFiles/SFMLproj.dir/bullet.cpp.obj: C:/Users/alexg/CLionProjects/SFMLproj/bullet.cpp
+CMakeFiles/SFMLproj.dir/bullet.cpp.obj: CMakeFiles/SFMLproj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexg\CLionProjects\SFMLproj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SFMLproj.dir/bullet.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SFMLproj.dir/bullet.cpp.obj -MF CMakeFiles\SFMLproj.dir\bullet.cpp.obj.d -o CMakeFiles\SFMLproj.dir\bullet.cpp.obj -c C:\Users\alexg\CLionProjects\SFMLproj\bullet.cpp
+
+CMakeFiles/SFMLproj.dir/bullet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFMLproj.dir/bullet.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexg\CLionProjects\SFMLproj\bullet.cpp > CMakeFiles\SFMLproj.dir\bullet.cpp.i
+
+CMakeFiles/SFMLproj.dir/bullet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFMLproj.dir/bullet.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexg\CLionProjects\SFMLproj\bullet.cpp -o CMakeFiles\SFMLproj.dir\bullet.cpp.s
 
 # Object files for target SFMLproj
 SFMLproj_OBJECTS = \
-"CMakeFiles/SFMLproj.dir/main.cpp.obj"
+"CMakeFiles/SFMLproj.dir/main.cpp.obj" \
+"CMakeFiles/SFMLproj.dir/control.cpp.obj" \
+"CMakeFiles/SFMLproj.dir/rules.cpp.obj" \
+"CMakeFiles/SFMLproj.dir/ship.cpp.obj" \
+"CMakeFiles/SFMLproj.dir/space_object.cpp.obj" \
+"CMakeFiles/SFMLproj.dir/asteroid.cpp.obj" \
+"CMakeFiles/SFMLproj.dir/bullet.cpp.obj"
 
 # External object files for target SFMLproj
 SFMLproj_EXTERNAL_OBJECTS =
 
 SFMLproj.exe: CMakeFiles/SFMLproj.dir/main.cpp.obj
+SFMLproj.exe: CMakeFiles/SFMLproj.dir/control.cpp.obj
+SFMLproj.exe: CMakeFiles/SFMLproj.dir/rules.cpp.obj
+SFMLproj.exe: CMakeFiles/SFMLproj.dir/ship.cpp.obj
+SFMLproj.exe: CMakeFiles/SFMLproj.dir/space_object.cpp.obj
+SFMLproj.exe: CMakeFiles/SFMLproj.dir/asteroid.cpp.obj
+SFMLproj.exe: CMakeFiles/SFMLproj.dir/bullet.cpp.obj
 SFMLproj.exe: CMakeFiles/SFMLproj.dir/build.make
 SFMLproj.exe: C:/SFML/lib/libsfml-graphics-s.a
 SFMLproj.exe: C:/SFML/lib/libsfml-window-s.a
@@ -107,7 +209,7 @@ SFMLproj.exe: C:/SFML/lib/libFLAC.a
 SFMLproj.exe: CMakeFiles/SFMLproj.dir/linkLibs.rsp
 SFMLproj.exe: CMakeFiles/SFMLproj.dir/objects1.rsp
 SFMLproj.exe: CMakeFiles/SFMLproj.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\alexg\CLionProjects\SFMLproj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable SFMLproj.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\alexg\CLionProjects\SFMLproj\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable SFMLproj.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SFMLproj.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

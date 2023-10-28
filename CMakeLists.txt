@@ -3,7 +3,17 @@ project(SFMLproj)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(SFMLproj main.cpp)
+add_executable(SFMLproj main.cpp
+        control.cpp
+        control.h
+        rules.cpp
+        rules.h
+        ship.cpp
+        ship.h
+        space_object.cpp
+        space_object.h
+        asteroid.cpp
+        bullet.cpp)
 
 set(SFML_STATIC_LIBRARIES TRUE)
 set(SFML_DIR C:/SFML/lib/cmake/SFML)
